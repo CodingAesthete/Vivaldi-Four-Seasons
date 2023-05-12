@@ -1,0 +1,88 @@
+body {
+  padding-top: 50px;
+  font-family: Arial;
+  background-color: rgb(255, 255, 255);
+  background: url('https://i.ebayimg.com/images/g/LDAAAOSwsThjt-ok/s-l1600.png');
+  background-size: cover;
+  background-position: top top;
+}
+
+#slider-wrapper {
+  width: 1200px;
+  height: 308px;
+  margin-left: 60px;
+  position: relative;
+  overflow: hidden;
+}
+
+ul, li {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  color: black;
+  border-radius: 10px;
+}
+
+#slider-wrapper ul {
+  position: absolute;
+  overflow:hidden;
+  top:0;
+  left:0;
+  transition: left 700ms cubic-bezier(0.165, 0.84, 0.44, 1)
+}
+
+#slider-wrapper ul li {
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  width: 1200px;
+  height: 300px;
+  float:left;
+}
+
+#slider-wrapper ul li:nth-child(1) {
+  background-image: url('https://static.independent.co.uk/2023/03/20/17/APTOPIX_Cherry_Blossoms_Washington_90207.jpg');
+}
+
+#slider-wrapper ul li:nth-child(2) {
+  background-image: url('https://www.thetimes.co.uk/travel/wp-content/uploads/sites/6/2022/02/HERO_Scenic-Palinuro-with-amazing-beaches.-tranquil-summer-holidays-in-beautiful-Cilento-National-park.-Italy_Credit_GettyImages-1019033556.jpg');
+}
+
+#slider-wrapper ul li:nth-child(3) {
+  background-image: url('https://hips.hearstapps.com/hmg-prod/images/gettyimages-1662654376.jpg');
+}
+
+#slider-wrapper ul li:nth-child(4) {
+  background-image: url('https://www.slovenia.info/imagine_cache/og/uploads/dozivetja/myway/myway-tiny/wintersports_2.jpg');
+}
+
+.content {
+  position: absolute;
+  top:20px;
+  left:30px;
+  width:300px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: justify;
+  line-height: 20px;;
+}
+
+body>p{
+  margin-top:0;
+  text-align:center;
+  display: flex;
+  margin-left:86px;
+}
+
+body>p a {
+  margin-right:30px;
+  color: white;
+  font-size: 22px;
+  background-color: rgb(35, 108, 133);
+  width:155px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border: 1px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+}
