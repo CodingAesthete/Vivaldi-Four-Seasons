@@ -85,4 +85,17 @@ body>p a {
   border: 1px solid black;
   border-radius: 8px;
   cursor: pointer;
+  height: 24px;
+}
+
+#gif {
+  margin-left: 124px;
+  width:190px;
+  height: 130px;
+}
+
+#gif2 {
+  margin-left: 294px;
+  width:190px;
+  height: 130px;
 }
